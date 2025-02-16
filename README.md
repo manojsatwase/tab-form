@@ -8,9 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-
-
-2. Machine Coding Round
+## Machine Coding Round
 The second round began with a few more questions about prototypes and the event loop, but quickly transitioned into a practical coding challenge. I was tasked with designing a form-based UI using React.js in CodeSandbox.
 
 The problem statement included three tabs: Profile, Interest, and Settings, each with specific field requirements such as:
