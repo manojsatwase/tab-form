@@ -1,30 +1,42 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
 ## Machine Coding Round
-The second round began with a few more questions about prototypes and the event loop, but quickly transitioned into a practical coding challenge. I was tasked with designing a form-based UI using React.js in CodeSandbox.
 
-The problem statement included three tabs: Profile, Interest, and Settings, each with specific field requirements such as:
+The second round began with a few more questions about prototypes and the event loop, but quickly transitioned into a practical coding challenge. I was tasked with designing a form-based UI using React.js in **CodeSandbox**.
 
-Age Field: Only numeric values allowed.
-Email Field: Validation to ensure the correct format.
-I had to incorporate various input types, including dropdowns, radio buttons, and checkboxes. The form also needed:
+### Problem Statement
 
-Validation for mandatory fields.
-Data persistence across tabs.
-A Submit button to submit the entire form at the last tab.
-Design Discussion
+The form needed to have three tabs:
+1. **Profile**
+2. **Interest**
+3. **Settings**
 
-Once I implemented the initial version, we discussed the form’s scalability and maintainability. The interviewer suggested creating a form configuration object that would dynamically generate the form. This led to a broader discussion on:
+Each tab had specific field requirements:
+- **Age Field:** Only numeric values allowed.
+- **Email Field:** Validation to ensure the correct format.
 
-Scalability: How easily we could extend or modify the form by updating the configuration object without rewriting significant parts of the code.
-Maintainability: Keeping the code modular, readable, and easy for future developers to understand and extend.
-This round highlighted the importance of designing scalable systems while maintaining a clean and organized codebase.
+The form had to incorporate various input types, including:
+- Dropdowns
+- Radio buttons
+- Checkboxes
 
+Additional requirements:
+- **Validation for mandatory fields**
+- **Data persistence across tabs**
+- **A Submit button** to submit the entire form at the last tab
+
+### Design Discussion
+
+Once I implemented the initial version, we discussed the form’s scalability and maintainability. The interviewer suggested creating a **form configuration object** that would dynamically generate the form. This led to a broader discussion on the following topics:
+
+#### Scalability:
+- How easily we could extend or modify the form by updating the configuration object, without rewriting significant parts of the code.
+
+#### Maintainability:
+- Keeping the code modular, readable, and easy for future developers to understand and extend.
+
+### Key Takeaways
+
+This round highlighted the importance of:
+- Designing **scalable systems** that can adapt to changes without major overhauls.
+- Maintaining a **clean and organized codebase**, ensuring that the application remains easy to understand and extend in the future.
+
+---
