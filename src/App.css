@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 15px;
+}
+.container{
+  display: flex;
+} 
+
+.tabs{
+  padding: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.tabBody{
+  display: flex;
+  border: 1px solid black;
+  height: 200px;
+  padding: 5px;
+}
+
+.active{
+  background-color: rgb(30, 56, 142);
+  color: white;
+  border-radius: 2px;
+}
+
+button{
+  cursor: pointer;
+}
+.error{
+  color: red;
+  display: block;
+  font-size: small;
+}
